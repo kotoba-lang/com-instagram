@@ -18,7 +18,7 @@
   container that is still `IN_PROGRESS` fails. `publish-video!` sequences this,
   but takes `:sleep-fn` rather than blocking on its own — a library that owns a
   timer cannot be tested without waiting for one."
-  (:require [clojure.string :as str]))
+  (:require [kotoba.lang.text :as str]))
 
 (def default-base-url "https://graph.facebook.com/v21.0")
 
