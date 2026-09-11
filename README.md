@@ -38,7 +38,7 @@ giving up quietly there looks exactly like a publish that never happened.
 ## Test
 
 ```bash
-nbb run_tests.cljs     # primary
+nbb run_tests.cljk     # primary
 clojure -M:test        # JVM, secondary
 ```
 
