@@ -38,8 +38,8 @@ giving up quietly there looks exactly like a publish that never happened.
 ## Test
 
 ```bash
-nbb run_tests.cljk     # primary
-clojure -M:test        # JVM, secondary
+kbb --backend sci run_tests.cljk     # primary
+kbb -M:test        # JVM, secondary
 ```
 
 6 tests / 16 assertions, green on both.
